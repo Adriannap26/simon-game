@@ -2,6 +2,13 @@
  * @jest-environment jsdom
  */
 
+/** @type {import('jest').Config} */
+const config = {
+    verbose: true,
+  };
+  
+  module.exports = config;
+
 const { game } = require("../game");
 
 
