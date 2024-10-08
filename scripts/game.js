@@ -1,5 +1,7 @@
 let game = {
+    currentGame: [],
     score: 0,
-}
+};
 
-export default { game };
+
+module.exports = { game };
